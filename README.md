@@ -14,6 +14,9 @@ This project demonstrates the use of fundamental HTML elements for building web 
 - List (Ordered and Unordered)
 - Div
 - Span
+- Header
+- Main
+- Footer
 
 This project serves as a quick reference for these basic HTML elements. Feel free to modify and enhance it for your own web development projects.
 

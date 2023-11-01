@@ -6,87 +6,97 @@
     <title>MY First HTML Page</title>
 </head>
 <body>
-   <!-- here we use h1 tags for heading  -->
-    <head>   <h1>Well come to my page</h1></head>
+  
+    <head>  
+        <h1>Well come to my page</h1>
+    </head>
     <main>
-    <section>
-    <!-- here we use pragraf tags  -->
-         <p>
-        This is practice question of HTMl.
-        <img src="https://i.ytimg.com/vi/KDQ2gKscIlU/maxresdefault.jpg" alt="Baby" width="300px" height="200px">
-        </p>
-    </section>
-    <section>
-        <!-- here we use order list -->
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Java</li>
-    </ol>
-</section>
-<section>
-    <!-- In this we us unorder list -->
-<ul>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Mango</li>
-</ul>
-</section>
-<section>
-    <!-- In this section we use anchor tage for linking -->
-<a href="https://www.example.com">Viste Example Website</a>
-</section>
-<section>
-    <!-- Here we use table tage for bulid a table -->
-<table border="black">
-<tr>
-    <th>Apple</th>
-    <th>Banana</th>
-</tr>
-<tr>
-    <td>apple</td>
-    <td>Banana</td>
-</tr>
-</table>
-</section>
-<section>
-    <!-- In this section we use creat a form using form tags -->
-<form action="action">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name">
-    <br>
-    
-    Gender:
-    <label for="id2">Male</label>
-    <input type="radio" name="gender" id="id2" value="male">
-    <label for="id1">Female</label>
-    <input type="radio" name="gender" id="id1" value="female">
-    <br>
-    <label for="id3">Country</label>
-    <select name="country" id="id3"> 
-        <option value="pakistan">Pakistan</option>
-        <option value="india">Idia</option>
-        <option value="dubie">Dubie</option>
-    </select>
-    <br>
-    <label for="id4">Comment:</label>
-    <br>
-    <textarea name="comment" id="id4" cols="30" rows="10"></textarea>
-</form>
-</section>
-<!-- Here we use apple diffrenet style on  div -->
-<div 
-style="border: hotpink;" 
-style="padding: 50px;"
-style="margin: 15px;">
-what is your real prblem?</div>
-<button onclick="showalert"> click me</button>
-<script>
+        <section>
+            <p>
+                This is practice question of HTMl.
+                <img src="https://i.ytimg.com/vi/KDQ2gKscIlU/maxresdefault.jpg" alt="Baby" width="300px" height="200px">
+            </p>
+        </section>
+
+        <section>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+            </ol>
+        </section>
+
+        <section>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Mango</li>
+            </ul>
+        </section>
+
+        <section>
+            <!-- In this section we use anchor tage for linking -->
+            <a href="https://www.example.com">Viste Example Website</a>
+        </section>
+
+        <section>
+            <!-- Here we use table tage for bulid a table -->
+            <table border="black">
+                <tr>
+                    <th>Apple</th>
+                    <th>Banana</th>
+                </tr>
+                <tr>
+                    <td>apple</td>
+                    <td>Banana</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <!-- In this section we  creat a form using form tags -->
+            <form action="action">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <br>
+                
+                Gender:
+                <label for="id2">Male</label>
+                <input type="radio" name="gender" id="id2" value="male">
+                <label for="id1">Female</label>
+                <input type="radio" name="gender" id="id1" value="female">
+                <br>
+                <label for="id3">Country</label>
+                <select name="country" id="id3"> 
+                    <option value="pakistan">Pakistan</option>
+                    <option value="india">Idia</option>
+                    <option value="dubie">Dubie</option>
+                </select>
+                <br>
+                <label for="id4">Comment:</label>
+                <br>
+                <textarea name="comment" id="id4" cols="30" rows="10"></textarea>
+            </form>
+        </section>
+     <!-- Here we use apply diffirnet style on  div -->
+      <div 
+      style="border: hotpink;" 
+      style="padding: 50px;"
+      style="margin: 15px;">
+      what is your real pr0blem?
+      </div>
+
+       <button onclick="showalert"> click me</button>
+
+    </main>
+
+     <footer>Please content us for more information.</footer>
+     
+    <!--This is small part of JavaScript  -->
+    <script>
     function showalert () {
         alert("hello,word!");
     }
-</script>
-</main>
-<footer>Please content us for more information.</footer>
+    </script>
 </body>
 </html>
